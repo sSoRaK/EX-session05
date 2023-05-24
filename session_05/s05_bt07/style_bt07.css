@@ -1,0 +1,39 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+}
+.container {
+  width: 900px;
+  background-color: #315d6a;
+  margin: 50px auto;
+  height: 200px;
+}
+.content {
+  display: flex;
+  color: white;
+  width: auto;
+}
+.content div {
+  width: 30%;
+  margin: 20px;
+}
+div p:nth-child(1) {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+ul {
+  margin-left: 50px;
+}
+.wrapper-icon {
+  display: flex;
+}
+.icon {
+  margin-right: 10px;
+  font-size: 35px;
+}
+.icon:hover {
+  cursor: pointer;
+}

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Send Message</title>
+    <link rel="stylesheet" href="./style_bt06.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <h3>Get in touch with us by filling contact form below</h3>
+      <div class="wrapper">
+        <div>
+          <input
+            type="text"
+            name="name"
+            id="name"
+            placeholder="*Enter your full name"
+            required
+          />
+        </div>
+        <div>
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="*Enter your email address"
+            required
+          />
+        </div>
+      </div>
+      <div>
+        <input
+          type="text"
+          name="subject"
+          id="subject"
+          placeholder="*Enter your subject"
+        />
+      </div>
+      <textarea
+        name="message"
+        id="message"
+        cols="30"
+        rows="10"
+        placeholder="*Your message here..."
+      ></textarea>
+      <div class="submit">
+        <div>
+          <input type="submit" id="submit-button" value="Send message" />
+        </div>
+        <p>*Please fill all required form field, thanks!</p>
+      </div>
+    </div>
+  </body>
+</html>

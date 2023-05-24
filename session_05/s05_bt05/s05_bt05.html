@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form Submit</title>
+    <link rel="stylesheet" href="./style_bt05.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="wrapper">
+        <form action="#" method="post">
+          <input
+            type="text"
+            name="first-name"
+            id="first-name"
+            placeholder="First Name"
+            required
+          />
+          <input
+            type="text"
+            name="last-name"
+            id="last-name"
+            placeholder="Last Name"
+            required
+          />
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="Your Email"
+            required
+          />
+          <input
+            type="number"
+            name="phone-number"
+            id="phone-number"
+            placeholder="Your Phone"
+            required
+          />
+          <datalist id="country">
+            <option value="American"></option>
+            <option value="Singapore"></option>
+            <option value="Japan"></option>
+            <option value="Korea"></option>
+          </datalist>
+          <input
+            name="country"
+            id="country"
+            list="country"
+            placeholder="Your Country"
+          />
+          <datalist id="course">
+            <option value="Short Term"></option>
+            <option value="Middle Term"></option>
+            <option value="Long Term"></option>
+          </datalist>
+          <input
+            name="course"
+            id="course"
+            list="course"
+            placeholder="Select Course"
+          />
+          <textarea
+            type="text"
+            name="content"
+            id="content"
+            placeholder="Content"
+          ></textarea>
+          <div class="button">
+            <input type="button" value="Submit" />
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>

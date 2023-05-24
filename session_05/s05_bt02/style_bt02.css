@@ -1,0 +1,75 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+.container {
+  width: 900px;
+  height: 400px;
+  margin: 50px auto;
+  background-color: #acbcff;
+}
+.container > h3 {
+  font-size: 24px;
+  font-weight: 500;
+  padding-top: 10px;
+  margin-left: 30px;
+  text-transform: uppercase;
+}
+.wrapper {
+  display: flex;
+}
+.wrapper > .contact-info {
+  width: 350px;
+  margin-left: 15px;
+  margin-top: 10px;
+}
+.wrapper > .form-type {
+  width: 550px;
+}
+.contact-info_title {
+  text-transform: capitalize;
+  font-size: 20px;
+  margin-left: 15px;
+}
+.contact-info > p:not(:first-child) {
+  display: inline-block;
+  color: gray;
+  margin: 10px 0 10px 20px;
+  font-size: 16px;
+}
+.icon {
+  font-size: 22px;
+}
+.form-type > .form-title {
+  margin: 10px 0;
+  font-size: 20px;
+}
+.form-type > form > input {
+  width: 520px;
+  height: 35px;
+  margin-bottom: 15px;
+  padding-left: 10px;
+}
+
+#message {
+  width: 520px;
+  height: 90px;
+  padding-left: 10px;
+  padding-top: 5px;
+}
+.button-submit {
+  height: 30px;
+  border: none;
+  background-color: #11b6b5;
+  color: white;
+  padding: 0 10px;
+}
+.button-submit:hover {
+  cursor: pointer;
+  background-color: #11b6b68f;
+}
+.contact-info > p > span {
+  display: block;
+}

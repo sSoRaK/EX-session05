@@ -1,0 +1,49 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+}
+.container {
+  margin: 50px auto;
+  width: 800px;
+}
+h3 {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+#name,
+#email {
+  width: 380px;
+  padding: 10px;
+  margin-bottom: 15px;
+}
+#subject,
+#message {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+}
+#submit-button {
+  background-color: #7fcbfe;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+}
+#submit-button:hover {
+  cursor: pointer;
+  background-color: #7fcbfed7;
+}
+.submit {
+  display: flex;
+  justify-content: space-between;
+}
+.submit p {
+  color: gray;
+}
